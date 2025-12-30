@@ -1,10 +1,58 @@
 body {
-  font-family: sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
   max-width: 900px;
   margin: auto;
+  padding: 30px;
   line-height: 1.8;
+  color: #333333;
+  background-color: #ffffff;
 }
 
+/* 名前（最上部） */
 h1 {
-  border-bottom: 2px solid #333;
+  color: #b84c6a;
+  border-bottom: 3px solid #d36c8a;
+  padding-bottom: 10px;
+}
+
+/* セクション見出し */
+h2 {
+  color: #b84c6a;
+  border-left: 6px solid #d36c8a;
+  padding-left: 12px;
+  margin-top: 50px;
+}
+
+/* リンク */
+a {
+  color: #d36c8a;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 研究項目など */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* 画像 */
+img {
+  margin: 15px 0;
+  border-radius: 6px;
+}
+
+/* フッター */
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #f1cfd9;
+  font-size: 0.9em;
+  color: #777;
 }
