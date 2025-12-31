@@ -56,3 +56,24 @@ footer {
   font-size: 0.9em;
   color: #777;
 }
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 14px;
+}
+
+.social-links img {
+  width: 26px;
+  height: 26px;
+  filter: invert(52%) sepia(28%) saturate(900%) hue-rotate(310deg);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* ホバー時：少し濃く＆ふわっと */
+.social-links a:hover img {
+  opacity: 0.75;
+  transform: translateY(-2px);
+}
