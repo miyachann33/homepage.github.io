@@ -60,8 +60,12 @@ footer {
   color: #777;
 }
 .social-links {
-  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end; /* ← 右寄せ */
+  gap: 12px;                /* アイコン間の余白 */
+  margin-top: 0px;
 }
+
 
 .social-links a {
   display: inline-block;
