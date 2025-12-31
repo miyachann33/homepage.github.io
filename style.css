@@ -1,5 +1,8 @@
 body {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "M PLUS Rounded 1c",
+               "Yu Gothic",
+               "Hiragino Kaku Gothic ProN",
+               sans-serif;
   max-width: 900px;
   margin: auto;
   padding: 30px;
