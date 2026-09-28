@@ -41,6 +41,21 @@ ul {
   padding-left: 20px;
 }
 
+.career-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.career-list li {
+  display: grid;
+  grid-template-columns: 10em minmax(0, 1fr);
+  column-gap: 0.5em;
+}
+
+.career-period {
+  white-space: nowrap;
+}
+
 li {
   margin-bottom: 8px;
 }
