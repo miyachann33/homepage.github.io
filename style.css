@@ -148,3 +148,42 @@ footer {
   background: rgba(0,0,0,0.15);
   border-radius: 8px;
 }
+
+/* Responsive adjustments for small screens */
+@media (max-width: 600px) {
+  body {
+    padding: 16px;
+  }
+
+  /* Stack career entries on small screens */
+  .career-list li {
+    display: block;
+    grid-template-columns: none;
+    margin-bottom: 12px;
+  }
+  .career-period {
+    display: block;
+    margin-bottom: 6px;
+    white-space: normal;
+    font-weight: 600;
+  }
+
+  /* Make gallery items narrower and responsive */
+  .kaigo-gallery {
+    gap: 10px;
+    padding: 8px 2px;
+  }
+  .kaigo-item,
+  .kaigo-gallery img {
+    width: min(240px, 76vw);
+    height: auto;
+  }
+  .kaigo-item img {
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+  .kaigo-item figcaption {
+    font-size: 0.85em;
+    padding: 0 6px;
+  }
+}
